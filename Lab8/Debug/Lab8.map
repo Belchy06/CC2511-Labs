@@ -86,8 +86,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x209 ./Static_Code/System/Peripherals_Init.o
  .debug_macro   0x00000000     0x1798 ./Static_Code/System/Peripherals_Init.o
  .debug_macro   0x00000000      0x4c6 ./Static_Code/System/Peripherals_Init.o
- .debug_line    0x00000000      0x201 ./Static_Code/System/Peripherals_Init.o
- .debug_str     0x00000000     0xb2bc ./Static_Code/System/Peripherals_Init.o
+ .debug_line    0x00000000      0x21d ./Static_Code/System/Peripherals_Init.o
+ .debug_str     0x00000000     0xb2d8 ./Static_Code/System/Peripherals_Init.o
  .comment       0x00000000       0x71 ./Static_Code/System/Peripherals_Init.o
  .ARM.attributes
                 0x00000000       0x39 ./Static_Code/System/Peripherals_Init.o
@@ -779,8 +779,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 ./Generated_Code/BluePWM.o
  .debug_macro   0x00000000       0x3e ./Generated_Code/BluePWM.o
  .debug_macro   0x00000000       0x2c ./Generated_Code/BluePWM.o
- .debug_line    0x00000000      0x314 ./Generated_Code/BluePWM.o
- .debug_str     0x00000000    0x55967 ./Generated_Code/BluePWM.o
+ .debug_line    0x00000000      0x384 ./Generated_Code/BluePWM.o
+ .debug_str     0x00000000    0x55983 ./Generated_Code/BluePWM.o
  .comment       0x00000000       0x71 ./Generated_Code/BluePWM.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/BluePWM.o
@@ -885,8 +885,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 ./Generated_Code/GreenPWM.o
  .debug_macro   0x00000000       0x3e ./Generated_Code/GreenPWM.o
  .debug_macro   0x00000000       0x2c ./Generated_Code/GreenPWM.o
- .debug_line    0x00000000      0x316 ./Generated_Code/GreenPWM.o
- .debug_str     0x00000000    0x5596f ./Generated_Code/GreenPWM.o
+ .debug_line    0x00000000      0x386 ./Generated_Code/GreenPWM.o
+ .debug_str     0x00000000    0x5598b ./Generated_Code/GreenPWM.o
  .comment       0x00000000       0x71 ./Generated_Code/GreenPWM.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/GreenPWM.o
@@ -1014,8 +1014,8 @@ Discarded input sections
  .debug_macro   0x00000000     0x1798 ./Generated_Code/Pins1.o
  .debug_macro   0x00000000      0x4c6 ./Generated_Code/Pins1.o
  .debug_macro   0x00000000     0xbca7 ./Generated_Code/Pins1.o
- .debug_line    0x00000000      0x1e9 ./Generated_Code/Pins1.o
- .debug_str     0x00000000    0x4b815 ./Generated_Code/Pins1.o
+ .debug_line    0x00000000      0x205 ./Generated_Code/Pins1.o
+ .debug_str     0x00000000    0x4b831 ./Generated_Code/Pins1.o
  .comment       0x00000000       0x71 ./Generated_Code/Pins1.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/Pins1.o
@@ -1200,8 +1200,8 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 ./Generated_Code/RedPWM.o
  .debug_macro   0x00000000       0x3e ./Generated_Code/RedPWM.o
  .debug_macro   0x00000000       0x2c ./Generated_Code/RedPWM.o
- .debug_line    0x00000000      0x312 ./Generated_Code/RedPWM.o
- .debug_str     0x00000000    0x5595f ./Generated_Code/RedPWM.o
+ .debug_line    0x00000000      0x382 ./Generated_Code/RedPWM.o
+ .debug_str     0x00000000    0x5597b ./Generated_Code/RedPWM.o
  .comment       0x00000000       0x71 ./Generated_Code/RedPWM.o
  .ARM.attributes
                 0x00000000       0x39 ./Generated_Code/RedPWM.o
@@ -1834,23 +1834,23 @@ LOAD c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/f
                 0x0000050a       0x22 c:/freescale/kds_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m/fpu/crtn.o
 OUTPUT(Lab8.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x450d
+.debug_info     0x00000000     0x450f
  .debug_info    0x00000000      0xab8 ./Static_Code/System/CPU_Init.o
  .debug_info    0x00000ab8      0x826 ./Static_Code/System/Vectors.o
  .debug_info    0x000012de       0xb8 ./Sources/Events.o
- .debug_info    0x00001396      0x10d ./Sources/main.o
- .debug_info    0x000014a3      0x3b0 ./Project_Settings/Startup_Code/startup.o
- .debug_info    0x00001853      0x26b ./Generated_Code/ADC.o
- .debug_info    0x00001abe      0x8f8 ./Generated_Code/ASerialLdd1.o
- .debug_info    0x000023b6      0x89b ./Generated_Code/AdcLdd1.o
- .debug_info    0x00002c51       0xa7 ./Generated_Code/Cpu.o
- .debug_info    0x00002cf8      0x20b ./Generated_Code/Inhr1.o
- .debug_info    0x00002f03      0x251 ./Generated_Code/PE_LDD.o
- .debug_info    0x00003154      0x333 ./Generated_Code/PwmLdd1.o
- .debug_info    0x00003487      0x333 ./Generated_Code/PwmLdd2.o
- .debug_info    0x000037ba      0x333 ./Generated_Code/PwmLdd3.o
- .debug_info    0x00003aed      0x766 ./Generated_Code/TU1.o
- .debug_info    0x00004253      0x2ba ./Generated_Code/Term1.o
+ .debug_info    0x00001396      0x10f ./Sources/main.o
+ .debug_info    0x000014a5      0x3b0 ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x00001855      0x26b ./Generated_Code/ADC.o
+ .debug_info    0x00001ac0      0x8f8 ./Generated_Code/ASerialLdd1.o
+ .debug_info    0x000023b8      0x89b ./Generated_Code/AdcLdd1.o
+ .debug_info    0x00002c53       0xa7 ./Generated_Code/Cpu.o
+ .debug_info    0x00002cfa      0x20b ./Generated_Code/Inhr1.o
+ .debug_info    0x00002f05      0x251 ./Generated_Code/PE_LDD.o
+ .debug_info    0x00003156      0x333 ./Generated_Code/PwmLdd1.o
+ .debug_info    0x00003489      0x333 ./Generated_Code/PwmLdd2.o
+ .debug_info    0x000037bc      0x333 ./Generated_Code/PwmLdd3.o
+ .debug_info    0x00003aef      0x766 ./Generated_Code/TU1.o
+ .debug_info    0x00004255      0x2ba ./Generated_Code/Term1.o
 
 .debug_abbrev   0x00000000     0x12a9
  .debug_abbrev  0x00000000      0x1bf ./Static_Code/System/CPU_Init.o
@@ -2018,57 +2018,57 @@ OUTPUT(Lab8.elf elf32-littlearm)
  .debug_macro   0x00024412      0x110 ./Generated_Code/TU1.o
  .debug_macro   0x00024522      0x101 ./Generated_Code/Term1.o
 
-.debug_line     0x00000000     0x4acb
- .debug_line    0x00000000      0x577 ./Static_Code/System/CPU_Init.o
- .debug_line    0x00000577      0xb16 ./Static_Code/System/Vectors.o
- .debug_line    0x0000108d      0x5b7 ./Sources/Events.o
- .debug_line    0x00001644      0x5b8 ./Sources/main.o
- .debug_line    0x00001bfc      0x3b8 ./Project_Settings/Startup_Code/startup.o
- .debug_line    0x00001fb4      0x49a ./Generated_Code/ADC.o
- .debug_line    0x0000244e      0x40a ./Generated_Code/ASerialLdd1.o
- .debug_line    0x00002858      0x41f ./Generated_Code/AdcLdd1.o
- .debug_line    0x00002c77      0x458 ./Generated_Code/Cpu.o
- .debug_line    0x000030cf      0x33d ./Generated_Code/Inhr1.o
- .debug_line    0x0000340c      0x40d ./Generated_Code/PE_LDD.o
- .debug_line    0x00003819      0x397 ./Generated_Code/PwmLdd1.o
- .debug_line    0x00003bb0      0x397 ./Generated_Code/PwmLdd2.o
- .debug_line    0x00003f47      0x397 ./Generated_Code/PwmLdd3.o
- .debug_line    0x000042de      0x3bd ./Generated_Code/TU1.o
- .debug_line    0x0000469b      0x430 ./Generated_Code/Term1.o
+.debug_line     0x00000000     0x51cb
+ .debug_line    0x00000000      0x603 ./Static_Code/System/CPU_Init.o
+ .debug_line    0x00000603      0xba2 ./Static_Code/System/Vectors.o
+ .debug_line    0x000011a5      0x627 ./Sources/Events.o
+ .debug_line    0x000017cc      0x628 ./Sources/main.o
+ .debug_line    0x00001df4      0x3f0 ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x000021e4      0x526 ./Generated_Code/ADC.o
+ .debug_line    0x0000270a      0x47a ./Generated_Code/ASerialLdd1.o
+ .debug_line    0x00002b84      0x48f ./Generated_Code/AdcLdd1.o
+ .debug_line    0x00003013      0x4e4 ./Generated_Code/Cpu.o
+ .debug_line    0x000034f7      0x391 ./Generated_Code/Inhr1.o
+ .debug_line    0x00003888      0x47d ./Generated_Code/PE_LDD.o
+ .debug_line    0x00003d05      0x407 ./Generated_Code/PwmLdd1.o
+ .debug_line    0x0000410c      0x407 ./Generated_Code/PwmLdd2.o
+ .debug_line    0x00004513      0x407 ./Generated_Code/PwmLdd3.o
+ .debug_line    0x0000491a      0x42d ./Generated_Code/TU1.o
+ .debug_line    0x00004d47      0x484 ./Generated_Code/Term1.o
 
-.debug_str      0x00000000    0xbce92
- .debug_str     0x00000000    0x5c32d ./Static_Code/System/CPU_Init.o
-                              0x5c4dd (size before relaxing)
- .debug_str     0x0005c32d      0x980 ./Static_Code/System/Vectors.o
-                              0x5c8fe (size before relaxing)
- .debug_str     0x0005ccad    0x5cfb4 ./Sources/Events.o
-                              0xb8119 (size before relaxing)
- .debug_str     0x000b9c61       0xf9 ./Sources/main.o
-                              0xb81d5 (size before relaxing)
- .debug_str     0x000b9d5a     0x21a2 ./Project_Settings/Startup_Code/startup.o
-                              0x45bba (size before relaxing)
- .debug_str     0x000bbefc      0x154 ./Generated_Code/ADC.o
-                              0x5b090 (size before relaxing)
- .debug_str     0x000bc050      0x2e1 ./Generated_Code/ASerialLdd1.o
-                              0x5b408 (size before relaxing)
- .debug_str     0x000bc331      0x33d ./Generated_Code/AdcLdd1.o
-                              0x51aa9 (size before relaxing)
- .debug_str     0x000bc66e       0x28 ./Generated_Code/Cpu.o
-                              0x5af44 (size before relaxing)
- .debug_str     0x000bc696      0x16c ./Generated_Code/Inhr1.o
-                              0x4c60e (size before relaxing)
- .debug_str     0x000bc802      0x15f ./Generated_Code/PE_LDD.o
-                              0x5b0dd (size before relaxing)
- .debug_str     0x000bc961       0xef ./Generated_Code/PwmLdd1.o
-                              0x55982 (size before relaxing)
- .debug_str     0x000bca50       0x94 ./Generated_Code/PwmLdd2.o
-                              0x55982 (size before relaxing)
- .debug_str     0x000bcae4       0x86 ./Generated_Code/PwmLdd3.o
-                              0x55982 (size before relaxing)
- .debug_str     0x000bcb6a      0x25e ./Generated_Code/TU1.o
-                              0x55a91 (size before relaxing)
- .debug_str     0x000bcdc8       0xca ./Generated_Code/Term1.o
-                              0x4c549 (size before relaxing)
+.debug_str      0x00000000    0xbceae
+ .debug_str     0x00000000    0x5c349 ./Static_Code/System/CPU_Init.o
+                              0x5c4f9 (size before relaxing)
+ .debug_str     0x0005c349      0x980 ./Static_Code/System/Vectors.o
+                              0x5c91a (size before relaxing)
+ .debug_str     0x0005ccc9    0x5cfb4 ./Sources/Events.o
+                              0xb8135 (size before relaxing)
+ .debug_str     0x000b9c7d       0xf9 ./Sources/main.o
+                              0xb81f1 (size before relaxing)
+ .debug_str     0x000b9d76     0x21a2 ./Project_Settings/Startup_Code/startup.o
+                              0x45bd6 (size before relaxing)
+ .debug_str     0x000bbf18      0x154 ./Generated_Code/ADC.o
+                              0x5b0ac (size before relaxing)
+ .debug_str     0x000bc06c      0x2e1 ./Generated_Code/ASerialLdd1.o
+                              0x5b424 (size before relaxing)
+ .debug_str     0x000bc34d      0x33d ./Generated_Code/AdcLdd1.o
+                              0x51ac5 (size before relaxing)
+ .debug_str     0x000bc68a       0x28 ./Generated_Code/Cpu.o
+                              0x5af60 (size before relaxing)
+ .debug_str     0x000bc6b2      0x16c ./Generated_Code/Inhr1.o
+                              0x4c62a (size before relaxing)
+ .debug_str     0x000bc81e      0x15f ./Generated_Code/PE_LDD.o
+                              0x5b0f9 (size before relaxing)
+ .debug_str     0x000bc97d       0xef ./Generated_Code/PwmLdd1.o
+                              0x5599e (size before relaxing)
+ .debug_str     0x000bca6c       0x94 ./Generated_Code/PwmLdd2.o
+                              0x5599e (size before relaxing)
+ .debug_str     0x000bcb00       0x86 ./Generated_Code/PwmLdd3.o
+                              0x5599e (size before relaxing)
+ .debug_str     0x000bcb86      0x25e ./Generated_Code/TU1.o
+                              0x55aad (size before relaxing)
+ .debug_str     0x000bcde4       0xca ./Generated_Code/Term1.o
+                              0x4c565 (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ./Static_Code/System/CPU_Init.o

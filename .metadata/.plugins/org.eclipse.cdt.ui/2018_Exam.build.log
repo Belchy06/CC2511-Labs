@@ -1,0 +1,45 @@
+17:16:21 **** Incremental Build of configuration Debug for project 2018_Exam ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Static_Code/System" -I"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Static_Code/PDD" -I"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Static_Code/IO_Map" -I"C:\Freescale\KDS_v3\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Sources" -I"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'displayLed':
+../Sources/main.c:84:3: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   delay(500);
+   ^
+../Sources/main.c: At top level:
+../Sources/main.c:95:6: warning: conflicting types for 'delay' [enabled by default]
+ void delay(word delay_ms) {
+      ^
+../Sources/main.c:84:3: note: previous implicit declaration of 'delay' was here
+   delay(500);
+   ^
+../Sources/main.c: In function 'main':
+../Sources/main.c:195:5: warning: passing argument 1 of 'memset' discards 'volatile' qualifier from pointer target type [enabled by default]
+     memset(buffer, "\0", bufferLength);
+     ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\assert.h:9:0,
+                 from C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Generated_Code/Cpu.h:74,
+                 from ../Sources/main.c:30:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\string.h:25:7: note: expected 'void *' but argument is of type 'volatile char *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+../Sources/main.c:195:5: warning: passing argument 2 of 'memset' makes integer from pointer without a cast [enabled by default]
+     memset(buffer, "\0", bufferLength);
+     ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\assert.h:9:0,
+                 from C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Generated_Code/Cpu.h:74,
+                 from ../Sources/main.c:30:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\string.h:25:7: note: expected 'int' but argument is of type 'char *'
+ _PTR  _EXFUN(memset,(_PTR, int, size_t));
+       ^
+Finished building: ../Sources/main.c
+ 
+Building target: 2018_Exam.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Will/Desktop/Uni/Year 2/SP 2/MA1580/CC2511_Labs/2018_Exam/Project_Settings/Linker_Files" -Wl,-Map,"2018_Exam.map" -specs=nano.specs -specs=nosys.specs -o "2018_Exam.elf"  ./Static_Code/System/CPU_Init.o ./Static_Code/System/Peripherals_Init.o ./Static_Code/System/Vectors.o  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ADC.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/BlueLED.o ./Generated_Code/Cpu.o ./Generated_Code/FC32.o ./Generated_Code/GreenLED.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/Pins1.o ./Generated_Code/RealTimeLdd1.o ./Generated_Code/RedLED.o ./Generated_Code/TU1.o ./Generated_Code/Terminal.o   
+Finished building target: 2018_Exam.elf
+ 
+
+17:16:22 Build Finished (took 1s.209ms)
+

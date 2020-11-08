@@ -798,7 +798,7 @@ Autoselect
             <SetEventMask v="don&amp;apos;t generate code" />
             <GetEventMask v="don&amp;apos;t generate code" />
             <GetEventStatus v="don&amp;apos;t generate code" />
-            <SetRatio8 v="don&amp;apos;t generate code" />
+            <SetRatio8 v="generate code" />
             <SetRatio16 v="generate code" />
             <SetDutyUS v="generate code" />
             <SetDutyMS v="generate code" />
@@ -822,7 +822,7 @@ Autoselect
       <Disable v="don&amp;apos;t generate code" />
       <EnableEvent v="don&amp;apos;t generate code" />
       <DisableEvent v="don&amp;apos;t generate code" />
-      <SetRatio8 v="don&amp;apos;t generate code" />
+      <SetRatio8 v="generate code" />
       <SetRatio16 v="generate code" />
       <SetDutyTicks16 v="don&amp;apos;t generate code" />
       <SetDutyTicks32 v="don&amp;apos;t generate code" />
@@ -894,7 +894,7 @@ Autoselect
             <SetEventMask v="don&amp;apos;t generate code" />
             <GetEventMask v="don&amp;apos;t generate code" />
             <GetEventStatus v="don&amp;apos;t generate code" />
-            <SetRatio8 v="don&amp;apos;t generate code" />
+            <SetRatio8 v="generate code" />
             <SetRatio16 v="generate code" />
             <SetDutyUS v="generate code" />
             <SetDutyMS v="generate code" />
@@ -918,7 +918,7 @@ Autoselect
       <Disable v="don&amp;apos;t generate code" />
       <EnableEvent v="don&amp;apos;t generate code" />
       <DisableEvent v="don&amp;apos;t generate code" />
-      <SetRatio8 v="don&amp;apos;t generate code" />
+      <SetRatio8 v="generate code" />
       <SetRatio16 v="generate code" />
       <SetDutyTicks16 v="don&amp;apos;t generate code" />
       <SetDutyTicks32 v="don&amp;apos;t generate code" />
